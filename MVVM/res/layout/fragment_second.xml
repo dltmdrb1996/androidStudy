@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SecondFragment">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.jetpackex.MainViewModel" />
+    </data>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/secondFragment_Tv_Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50sp"
+        android:text="@{viewModel.secondTitle}" />
+
+    <Button
+        android:id="@+id/secondFragment_Btn_NextFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:text="다음 프래그먼트로"/>
+
+    <EditText
+        android:id="@+id/secondFragment_Edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title 입력"
+        android:layout_below="@+id/secondFragment_Btn_NextFrag"/>
+
+    <Button
+        android:id="@+id/secondFragment_btn_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제목변경"
+        android:layout_below="@+id/secondFragment_Edt_title"/>
+</RelativeLayout>
+</layout>
