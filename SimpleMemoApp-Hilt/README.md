@@ -6,6 +6,5 @@
 5. Room
 
 ### 참고
-### 안드로이드 공식 클릭아키텍쳐샘플 Hilt 
+### 안드로이드 공식 클릭아키텍쳐샘플 Hilt 변형
 <https://github.com/android/architecture-samples/tree/dev-hilt>
-
