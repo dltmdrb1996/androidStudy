@@ -6,4 +6,6 @@
 5. Room
 
 ### 참고
-[Google](https://google.com, "google link")
+### 안드로이드 공식 클릭아키텍쳐샘플 Hilt 
+<https://github.com/android/architecture-samples/tree/dev-hilt>
+
